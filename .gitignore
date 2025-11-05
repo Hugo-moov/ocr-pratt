@@ -1,0 +1,47 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Test files and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Distribution files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secret files
+*.env
+.env.*
