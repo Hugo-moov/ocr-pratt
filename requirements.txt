@@ -3,3 +3,4 @@ pytesseract
 pandas
 openai
 python-dotenv
+azure
