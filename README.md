@@ -1,6 +1,10 @@
 # Optical Character Recognition
 
-Training material for Pratt and Whitney
+Training material for Pratt and Whitney. It showcases different OCR methods to extract text fields from scanned documents.
+
+Images come from a public dataset available on Hugginface: 
+
+https://huggingface.co/datasets/mychen76/invoices-and-receipts_ocr_v1
 
 ## Installation
 
@@ -16,5 +20,11 @@ cd ocr-pratt
 pip install -r requirements.txt
 ```
 
-## Dataset
-https://huggingface.co/datasets/mychen76/invoices-and-receipts_ocr_v1
+## Usage
+
+Activate your environment and run the main script:
+
+```bash 
+python ocr.py
+python azure_document_intelligence.py
+```
